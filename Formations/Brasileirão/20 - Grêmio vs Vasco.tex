@@ -1,0 +1,43 @@
+\begin{tikzpicture}
+\begin{scope}[%    
+    every node/.style={draw=white, very thick, inner sep=0, outer sep=0},
+   every path/.style={draw=white, very thick},
+]
+\fill[field] (-1,-1) rectangle (13,10);
+\node[minimum width=12cm, minimum height=9cm] (contour) at (6,4.5) {};
+
+%\draw[yellow,thin] (contour.south west) grid (contour.north east);
+
+% Center
+\draw (contour.north) -- (contour.south);
+\draw (contour.center) circle (0.915cm);
+\fill[white] (contour.center) circle (.5mm);
+
+% Areas
+\area{contour.west}{0}
+\area{contour.east}{180}
+
+% Corners
+\foreach \corner [count=\xi starting from 0] in {south west, south east, north east, north west}{
+    \begin{scope}[rotate around={90*\xi:(contour.\corner)}]
+        \draw ([xshift=1mm]contour.\corner) arc (0:90:1mm);
+    \end{scope}
+}
+\end{scope}
+
+\marchesin{(.5,4.5)}
+
+\rodrigoely{(2.8,2)}
+\jemerson{(2.8,4.5)}
+\kannemann{(2.8,7)}
+
+\joaopedro{(6,1)}
+\villasanti{(5,5.5)}
+\dodi{(5.3,3.5)}
+\reinaldo{(6,8)}
+
+\soteldo{(9,7.5)}
+\cristaldo{(10,4.5)}
+\pavon{(9,1.5)}
+
+\end{tikzpicture}

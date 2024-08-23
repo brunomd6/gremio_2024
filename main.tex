@@ -1,0 +1,72 @@
+\documentclass{article}
+
+\usepackage{graphicx}
+\usepackage{standalone}
+\usepackage{tikz}
+\usepackage{environ}
+\usepackage{tikzpeople}
+\usepackage{graphicx}
+\usepackage{tikzscale}
+\usepackage{Styles/jogadores}
+\usepackage{Styles/figuras}
+\usepackage{float}   % For image placement settinf "H"
+
+\makeatletter
+\newsavebox{\measure@tikzpicture}
+\NewEnviron{scaletikzpicturetowidth}[1]{%
+  \def\tikz@width{#1}%
+  \def\tikzscale{1}\begin{lrbox}{\measure@tikzpicture}%
+  \BODY
+  \end{lrbox}%
+  \pgfmathparse{#1/\wd\measure@tikzpicture}%
+  \edef\tikzscale{\pgfmathresult}%
+  \BODY
+}
+\makeatother
+
+\begin{document}
+
+\section{Campeonato Gaúcho}
+
+\input{Matchdays/Gauchão/Quartas - Grêmio vs Brasil de Pelotas}
+\input{Matchdays/Gauchão/Semifinal - Ida - Caxias vs Grêmio}
+\input{Matchdays/Gauchão/Semifinal - Volta - Grêmio vs Caxias}
+\input{Matchdays/Gauchão/Final - Ida - Juventude vs Grêmio}
+\input{Matchdays/Gauchão/Final - Volta - Grêmio vs Juventude}
+
+\section{Brasileirão}
+
+\input{Matchdays/Brasileirão/01 - Vasco vs Grêmio}
+\input{Matchdays/Brasileirão/02 - Grêmio vs Athletico}
+\input{Matchdays/Brasileirão/03 - Grêmio vs Cuiabá}
+\input{Matchdays/Brasileirão/04 - Bahia vs Grêmio}
+\input{Matchdays/Brasileirão/07 - Grêmio vs Bragantino}
+\input{Matchdays/Brasileirão/08 - Flamengo vs Grêmio}
+\input{Matchdays/Brasileirão/09 - Grêmio vs Botafogo}
+\input{Matchdays/Brasileirão/10 - Fortaleza vs Grêmio}
+\input{Matchdays/Brasileirão/11 - Grêmio vs Internacional}
+\input{Matchdays/Brasileirão/12 - Atlético-GO vs Grêmio}
+\input{Matchdays/Brasileirão/13 - Grêmio vs Fluminense}
+\input{Matchdays/Brasileirão/14 - Grêmio vs Palmeiras}
+\input{Matchdays/Brasileirão/15 - Juventude vs Grêmio}
+\input{Matchdays/Brasileirão/16 - Grêmio vs Cruzeiro}
+\input{Matchdays/Brasileirão/17 - São Paulo vs Grêmio}
+\input{Matchdays/Brasileirão/18 - Grêmio vs Vitória}
+\input{Matchdays/Brasileirão/19 - Corinthians vs Grêmio}
+\input{Matchdays/Brasileirão/20 - Grêmio vs Vasco}
+\input{Matchdays/Brasileirão/21 - Athletico vs Grêmio}
+\input{Matchdays/Brasileirão/22 - Cuiabá vs Grêmio}
+\input{Matchdays/Brasileirão/23 - Grêmio vs Bahia}
+
+\section{Libertadores}
+
+\input{Matchdays/Libertadores/Group - 04 - Grêmio vs The Strongest}
+\input{Matchdays/Libertadores/Group - 05 - Huachipato vs Grêmio}
+\input{Matchdays/Libertadores/Oitavas - Ida - Grêmio vs Fluminense}
+\input{Matchdays/Libertadores/Oitavas - Volta - Fluminense vs Grêmio}
+
+\section{Copa do Brasil}
+
+\input{Matchdays/Copa do Brasil/Oitavas - Volta - Grêmio vs Corinthians}
+
+\end{document}
