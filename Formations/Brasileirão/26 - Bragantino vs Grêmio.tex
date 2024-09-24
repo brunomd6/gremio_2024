@@ -1,22 +1,22 @@
 \begin{tikzpicture}
     \begin{scope}[%    
         every node/.style={draw=white, very thick, inner sep=0, outer sep=0},
-        every path/.style={draw=white, very thick},
+       every path/.style={draw=white, very thick},
     ]
     \fill[field] (-1,-1) rectangle (13,10);
     \node[minimum width=12cm, minimum height=9cm] (contour) at (6,4.5) {};
-
+    
     %\draw[yellow,thin] (contour.south west) grid (contour.north east);
-
+    
     % Center
     \draw (contour.north) -- (contour.south);
     \draw (contour.center) circle (0.915cm);
     \fill[white] (contour.center) circle (.5mm);
-
+    
     % Areas
     \area{contour.west}{0}
     \area{contour.east}{180}
-
+    
     % Corners
     \foreach \corner [count=\xi starting from 0] in {south west, south east, north east, north west}{
         \begin{scope}[rotate around={90*\xi:(contour.\corner)}]
@@ -24,21 +24,21 @@
         \end{scope}
     }
     \end{scope}
-
-
-    \caique{(.5,4.5)}
-
-    \fabio{(3,1)}
-    \rodrigoely{(2.8,3)}
-    \nata{(2.8,6)}
-    \joseguilherme{(3,8)}
-
-    \pepe{(5,3.5)}
-    \duqueiroz{(5,5.5)}
-    \monsalve{(7,4.5)}
-
-    \aravena{(9,7.5)}
-    \diegocosta{(10,4.5)}
-    \nathanfernandes{(9,1.5)}
-
-\end{tikzpicture}
+    
+    
+    \marchesin{(.5,4.5)}
+    
+    \joaopedro{(3,1)}
+    \rodrigocaio{(2.8,3)}
+    \jemerson{(2.8,6)}
+    \reinaldo{(3,8)}
+    
+    \dodi{(5,3.5)}
+    \villasanti{(5,5.5)}
+    \cristaldo{(7,4.5)}
+    
+    \soteldo{(9,7.5)}
+    \braithwaite{(10,4.5)}
+    \monsalve{(9,1.5)}
+    
+    \end{tikzpicture}

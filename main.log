@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.8.23)  23 AUG 2024 14:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.5)  23 SEP 2024 16:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -375,17 +375,9 @@ Package: xstring 2023/08/22 v1.86 String manipulations (CT)
 )
 \tikzscale@measuredSize=\box68
 ) (Styles/jogadores.sty
-
-LaTeX Warning: You have requested package `Styles/jogadores',
-               but the package provides `jogadores'.
-
-Package: jogadores 2024/04/29 Player Macros
+Package: Styles/jogadores 2024/04/29 Player Macros
 ) (Styles/figuras.sty
-
-LaTeX Warning: You have requested package `Styles/figuras',
-               but the package provides `figuras'.
-
-Package: figuras 2024/04/29 Player Macros
+Package: Styles/figuras 2024/04/29 Player Macros
 ) (C:\Users\bruno\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count302
@@ -399,20 +391,20 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
  (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
  (C:\Users\bruno\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count303
@@ -574,46 +566,62 @@ Missing character: There is no 8 in font nullfont!
 Missing character: There is no ) in font nullfont!
 )
 File: Formations/Brasileirão/23 - Grêmio vs Bahia.tex Graphic file (type tex)
+) (Matchdays/Brasileirão/24 - Criciúma vs Grêmio.tex
+
+[29] (Formations/Brasileirão/24 - Criciúma vs Grêmio.tex)
+File: Formations/Brasileirão/24 - Criciúma vs Grêmio.tex Graphic file (type tex)
+) (Matchdays/Brasileirão/25 - Grêmio vs Atlético-MG.tex
+
+[30] (Formations/Brasileirão/25 - Grêmio vs Atlético-MG.tex)
+File: Formations/Brasileirão/25 - Grêmio vs Atlético-MG.tex Graphic file (type tex)
+) (Matchdays/Brasileirão/26 - Bragantino vs Grêmio.tex
+
+[31] (Formations/Brasileirão/26 - Bragantino vs Grêmio.tex)
+File: Formations/Brasileirão/26 - Bragantino vs Grêmio.tex Graphic file (type tex)
+) (Matchdays/Brasileirão/27 - Grêmio vs Flamengo.tex
+
+[32] (Formations/Brasileirão/27 - Grêmio vs Flamengo.tex)
+File: Formations/Brasileirão/27 - Grêmio vs Flamengo.tex Graphic file (type tex)
 ) (Matchdays/Libertadores/Group - 04 - Grêmio vs The Strongest.tex (Formations/Libertadores/Group - 04 - Grêmio vs The Strongest.tex)
 File: Formations/Libertadores/Group - 04 - Grêmio vs The Strongest.tex Graphic file (type tex)
 
 
-[29]) (Matchdays/Libertadores/Group - 05 - Huachipato vs Grêmio.tex
+[33]) (Matchdays/Libertadores/Group - 05 - Huachipato vs Grêmio.tex
 
-[30] (Formations/Libertadores/Group - 05 - Huachipato vs Grêmio.tex)
+[34] (Formations/Libertadores/Group - 05 - Huachipato vs Grêmio.tex)
 File: Formations/Libertadores/Group - 05 - Huachipato vs Grêmio.tex Graphic file (type tex)
 ) (Matchdays/Libertadores/Oitavas - Ida - Grêmio vs Fluminense.tex
 
-[31] (Formations/Libertadores/Oitavas - Ida - Grêmio vs Fluminense.tex)
+[35] (Formations/Libertadores/Oitavas - Ida - Grêmio vs Fluminense.tex)
 File: Formations/Libertadores/Oitavas - Ida - Grêmio vs Fluminense.tex Graphic file (type tex)
 ) (Matchdays/Libertadores/Oitavas - Volta - Fluminense vs Grêmio.tex
 
-[32] (Formations/Libertadores/Oitavas - Volta - Fluminense vs Grêmio.tex)
+[36] (Formations/Libertadores/Oitavas - Volta - Fluminense vs Grêmio.tex)
 File: Formations/Libertadores/Oitavas - Volta - Fluminense vs Grêmio.tex Graphic file (type tex)
 ) (Matchdays/Copa do Brasil/Oitavas - Volta - Grêmio vs Corinthians.tex (Formations/Copa do Brasil/Oitavas - Volta - Grêmio vs Corinthians.tex)
 File: Formations/Copa do Brasil/Oitavas - Volta - Grêmio vs Corinthians.tex Graphic file (type tex)
 )
 
-[33]
+[37]
 
-[34] (main.aux)
+[38] (main.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-07-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 20014 strings out of 473899
- 536683 string characters out of 5726500
- 1982960 words of memory out of 5000000
- 42288 multiletter control sequences out of 15000+600000
+ 20242 strings out of 473865
+ 554351 string characters out of 5724965
+ 1983960 words of memory out of 5000000
+ 42512 multiletter control sequences out of 15000+600000
  560192 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  95i,13n,93p,511b,1533s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/bruno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/bruno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/bruno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/bruno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss9.pfb>
-Output written on main.pdf (34 pages, 291817 bytes).
+Output written on main.pdf (38 pages, 318799 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
+ 157 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  37 words of extra memory for PDF output out of 10000 (max. 10000000)
 
