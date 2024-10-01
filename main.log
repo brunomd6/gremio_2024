@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.5)  23 SEP 2024 16:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.5)  1 OCT 2024 11:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -580,48 +580,52 @@ File: Formations/Brasileirão/25 - Grêmio vs Atlético-MG.tex Graphic file (typ
 File: Formations/Brasileirão/26 - Bragantino vs Grêmio.tex Graphic file (type tex)
 ) (Matchdays/Brasileirão/27 - Grêmio vs Flamengo.tex
 
-[32] (Formations/Brasileirão/27 - Grêmio vs Flamengo.tex)
+[32] (Formations/Brasileirão/28 - Botafogo vs Grêmio.tex)
+File: Formations/Brasileirão/28 - Botafogo vs Grêmio.tex Graphic file (type tex)
+) (Matchdays/Brasileirão/28 - Botafogo vs Grêmio.tex
+
+[33] (Formations/Brasileirão/27 - Grêmio vs Flamengo.tex)
 File: Formations/Brasileirão/27 - Grêmio vs Flamengo.tex Graphic file (type tex)
 ) (Matchdays/Libertadores/Group - 04 - Grêmio vs The Strongest.tex (Formations/Libertadores/Group - 04 - Grêmio vs The Strongest.tex)
 File: Formations/Libertadores/Group - 04 - Grêmio vs The Strongest.tex Graphic file (type tex)
 
 
-[33]) (Matchdays/Libertadores/Group - 05 - Huachipato vs Grêmio.tex
+[34]) (Matchdays/Libertadores/Group - 05 - Huachipato vs Grêmio.tex
 
-[34] (Formations/Libertadores/Group - 05 - Huachipato vs Grêmio.tex)
+[35] (Formations/Libertadores/Group - 05 - Huachipato vs Grêmio.tex)
 File: Formations/Libertadores/Group - 05 - Huachipato vs Grêmio.tex Graphic file (type tex)
 ) (Matchdays/Libertadores/Oitavas - Ida - Grêmio vs Fluminense.tex
 
-[35] (Formations/Libertadores/Oitavas - Ida - Grêmio vs Fluminense.tex)
+[36] (Formations/Libertadores/Oitavas - Ida - Grêmio vs Fluminense.tex)
 File: Formations/Libertadores/Oitavas - Ida - Grêmio vs Fluminense.tex Graphic file (type tex)
 ) (Matchdays/Libertadores/Oitavas - Volta - Fluminense vs Grêmio.tex
 
-[36] (Formations/Libertadores/Oitavas - Volta - Fluminense vs Grêmio.tex)
+[37] (Formations/Libertadores/Oitavas - Volta - Fluminense vs Grêmio.tex)
 File: Formations/Libertadores/Oitavas - Volta - Fluminense vs Grêmio.tex Graphic file (type tex)
 ) (Matchdays/Copa do Brasil/Oitavas - Volta - Grêmio vs Corinthians.tex (Formations/Copa do Brasil/Oitavas - Volta - Grêmio vs Corinthians.tex)
 File: Formations/Copa do Brasil/Oitavas - Volta - Grêmio vs Corinthians.tex Graphic file (type tex)
 )
 
-[37]
+[38]
 
-[38] (main.aux)
+[39] (main.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-07-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 20242 strings out of 473865
- 554351 string characters out of 5724965
- 1983960 words of memory out of 5000000
- 42512 multiletter control sequences out of 15000+600000
+ 20297 strings out of 473865
+ 558631 string characters out of 5724965
+ 1982960 words of memory out of 5000000
+ 42562 multiletter control sequences out of 15000+600000
  560192 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  95i,13n,93p,511b,1533s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/bruno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/bruno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/bruno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/bruno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss9.pfb>
-Output written on main.pdf (38 pages, 318799 bytes).
+Output written on main.pdf (39 pages, 325765 bytes).
 PDF statistics:
- 157 PDF objects out of 1000 (max. 8388607)
+ 160 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  37 words of extra memory for PDF output out of 10000 (max. 10000000)
 
